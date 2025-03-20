@@ -1,6 +1,64 @@
-h1{
-    height: 300px;
-    width: 300px;
-    background-color: orange;
+*{
+    margin: 0;
+    padding: 0;
+}
 
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+nav{
+    padding: 20px 0px;
+    background-color: orange;
+}
+
+/* [[[[[[[[[[[[[[[[[[[[navber]]]]]]]]]]]]]]]] */
+
+nav .box{
+    display: flex;
+    align-items: center;
+    /* background-color: orange; */
+}
+
+nav .box .logo{
+    width: 20%;
+    /* background-color: orange; */
+}
+
+
+nav .box .logo .logo1{
+    width: 100px;
+}
+
+
+
+
+
+nav .box .Menu{
+    width: 60%;
+}
+   
+
+
+nav .box .Menu ul{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+
+
+nav .box .botton{
+    width: 20%;
+    text-align: right;
 }
