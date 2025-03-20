@@ -102,12 +102,13 @@ nav .button a:hover{
 .section1 .box .logo2{
     height: 500px;
     width: 50%;
+    background-color: aqua;
     
 }
 
 .section1 .box .logo3{
     height: 500px;
     width: 50%;
-    
+    background-color: black;
 
 }
