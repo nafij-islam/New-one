@@ -18,7 +18,7 @@ ul{
 }
 
 nav{
-    padding: 20px 0px;
+    padding: 25px 0px;
     background-color: orange;
 }
 
@@ -27,17 +27,17 @@ nav{
 nav .box{
     display: flex;
     align-items: center;
-    /* background-color: orange; */
+   
 }
 
 nav .box .logo{
     width: 20%;
-    /* background-color: orange; */
+    
 }
 
 
 nav .box .logo .logo1{
-    width: 100px;
+    width: 150px;
 }
 
 
@@ -56,9 +56,34 @@ nav .box .Menu ul{
     justify-content: center;
 }
 
+nav .box .Menu ul li{
+    border: 2px solid white;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 20px;
+}
 
 
-nav .box .botton{
+
+
+
+nav .button{
     width: 20%;
     text-align: right;
 }
+
+
+nav .button a{
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 25px;
+    transition: 1s;
+    color: white;
+}
+
+nav .button a:hover{
+    background-color: rgb(123, 189, 16);
+
+}
+
